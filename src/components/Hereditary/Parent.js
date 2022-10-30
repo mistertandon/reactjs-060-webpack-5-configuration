@@ -1,4 +1,4 @@
-import React, { lazy } from "react";
+import React, { lazy, Suspense } from "react";
 const ChildA = lazy(() => import("./ChildA"));
 
 const Parent = () => {
